@@ -1,47 +1,47 @@
-# 📌 Crypto Exchange CLI
+# 📌 Currency/Crypto Converter
 
-Este es un programa en Python que permite consultar tasas de cambio de criptomonedas en tiempo real, obtener datos históricos y convertir monedas utilizando la API de Coinlayer.
+This is a Python program that allows you to check real-time cryptocurrency exchange rates, retrieve historical data, and convert currencies using the Coinlayer API.
 
-## 🚀 Características
-- 📊 Listado de tasas de cambio en vivo para todas las monedas.
-- 🔍 Consulta de tasas de cambio en vivo para una moneda específica.
-- 📆 Obtención de datos históricos de criptomonedas.
-- 💸 Conversión de monedas utilizando tasas de cambio en vivo.
-- 🛠 Manejo de errores y validación de datos.
+## 🚀 Features
+- 📊 Listing of live exchange rates for all currencies.
+- 🔍 Query live exchange rates for a specific currency.
+- 📆 Retrieve historical cryptocurrency data.
+- 💸 Currency conversion using live exchange rates.
+- 🛠 Error handling and data validation.
 
-## 🛠 Requisitos
+## 🛠 Requirements
 - Python 3.x
-- Cuenta en [Coinlayer](https://coinlayer.com/) para obtener una API Key.
-- Archivo `.env` con la clave `API_KEY`.
+- A [Coinlayer](https://coinlayer.com/) account to obtain an API Key.
+- A `.env` file containing the `API_KEY`.
 
-## 📦 Instalación
-1. Clona este repositorio:
+## 📦 Installation
+1. Clone this repository:
    ```bash
    git clone https://github.com/SrCidm/currencyConverterInPython
    cd currencyConverterInPython
    ```
-2. Instala las dependencias:
+2. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Crea un archivo `.env` en la raíz del proyecto y añade tu API Key:
+3. Create a `.env` file in the root of the project and add your API Key:
    ```ini
-   API_KEY=tu_api_key_aqui
+   API_KEY=your_api_key_here
    ```
 
-## 🏃 Uso
-Ejecuta el script con:
+## 🏃 Usage
+Run the script with:
 ```bash
 python currencyConverter.py
 ```
-Se mostrará un menú interactivo con opciones para consultar datos en vivo, datos históricos y realizar conversiones de moneda.
+An interactive menu will be displayed with options to query live data, historical data, and perform currency conversions.
 
-## 📌 Menú de Opciones
-1️⃣ 📊 Listado de todas las monedas en vivo.
-2️⃣ 🔍 Consultar tasa de cambio de una moneda específica.
-3️⃣ 📆 Obtener datos históricos de criptomonedas.
-4️⃣ 💸 Convertir monedas.
-5️⃣ ❌ Salir.
+## 📌 Menu Options
+1️⃣ 📊 List all live currencies.
+2️⃣ 🔍 Query exchange rate for a specific currency.
+3️⃣ 📆 Retrieve historical cryptocurrency data.
+4️⃣ 💸 Convert currencies.
+5️⃣ ❌ Exit.
 
-## 📜 Licencia
-Este proyecto está bajo la licencia MIT.
+## 📜 License
+This project is licensed under the MIT License.
